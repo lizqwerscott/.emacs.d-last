@@ -1,0 +1,44 @@
+;;; -*- coding: utf-8 -*-
+(("/home/lizqwer/quicklisp/local-projects/qqbot/bot.lisp" . 6300)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/start.lisp" . 47)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/head.lisp" . 1043)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/game.lisp" . 1955)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/main.lisp" . 2021)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/package.lisp" . 1072)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/bt.lisp" . 1766)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/picture.lisp" . 1958)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/text.lisp" . 653)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/web.lisp" . 760)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/card.lisp" . 1081)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/cards/"
+  (dired-filename . "/home/lizqwer/quicklisp/local-projects/qqbot/cards/.."))
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/"
+  (dired-filename . "/home/lizqwer/quicklisp/local-projects/qqbot/card.lisp"))
+ ("/home/lizqwer/.emacs.d/lisp/init-package.el" . 2483)
+ ("/home/lizqwer/.emacs.d/"
+  (dired-filename . "/home/lizqwer/.emacs.d/init.el"))
+ ("/home/lizqwer/.emacs.d/init.el" . 289)
+ ("/home/lizqwer/.emacs.d/lisp/evil-map.el" . 381)
+ ("/home/lizqwer/quicklisp/local-projects/qqbot/qqbot.asd" . 577)
+ ("/home/lizqwer/project/test/lisp-test/spider/spider.lisp" . 595)
+ ("/home/lizqwer/quicklisp/local-projects/spider/"
+  (dired-filename . "/home/lizqwer/quicklisp/local-projects/spider/task.lisp"))
+ ("/home/lizqwer/quicklisp/local-projects/spider/task.lisp" . 472)
+ ("/home/lizqwer/quicklisp/local-projects/spider/handles.lisp" . 2950)
+ ("/home/lizqwer/quicklisp/local-projects/spider/spider.asd" . 679)
+ ("/home/lizqwer/quicklisp/local-projects/spider/main.lisp" . 778)
+ ("/home/lizqwer/project/test/"
+  (dired-filename . "/home/lizqwer/project/test/lisp-test"))
+ ("/home/lizqwer/project/test/lisp-test/"
+  (dired-filename . "/home/lizqwer/project/test/lisp-test/cl-xxx-jit"))
+ ("/home/lizqwer/project/test/lisp-test/qqbot/main.lisp" . 6462)
+ ("/home/lizqwer/quicklisp/local-projects/webapp/head/head.lisp" . 758)
+ ("/home/lizqwer/.emacs.d/lisp/init-startup.el" . 3609)
+ ("/home/lizqwer/.emacs.d/lisp/init-ui.el" . 439)
+ ("/home/lizqwer/.emacs.d/elpa/sly-quicklisp-20200707.1635/sly-quicklisp-autoloads.el" . 590)
+ ("/home/lizqwer/AndroidStudioProjects/"
+  (dired-filename . "/home/lizqwer/AndroidStudioProjects/.."))
+ ("/home/lizqwer/"
+  (dired-filename . "/home/lizqwer/project"))
+ ("/home/lizqwer/project/"
+  (dired-filename . "/home/lizqwer/project/test")))
