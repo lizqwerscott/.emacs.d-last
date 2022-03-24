@@ -1,7 +1,7 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/lizqwer/.emacs.d/lisp/init-melpa.el" . 166)
+(("/home/lizqwer/.emacs.d/lisp/init-package.el" . 3621)
+ ("/home/lizqwer/.emacs.d/lisp/init-melpa.el" . 166)
  ("/home/lizqwer/quicklisp/local-projects/connect-any/web.lisp" . 572)
- ("/home/lizqwer/.emacs.d/lisp/init-package.el" . 2709)
  ("/home/lizqwer/.emacs.d/lisp/init-org.el" . 1429)
  ("/home/lizqwer/Documents/Sync/org/babal/"
   (dired-filename . "/home/lizqwer/Documents/Sync/org/babal/21NewProgramTest"))

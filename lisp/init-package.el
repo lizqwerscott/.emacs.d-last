@@ -128,15 +128,16 @@
 (setq browse-url-browser-function 'browse-url-chrome)
 
 (use-package go-translate
-  :ensure t)
-
-(require 'go-translate)
-(setq gts-translate-list '(("en" "zh")))
-(setq gts-default-translator
+  :ensure t
+  :config
+  (setq gts-translate-list '(("en" "zh")))
+  (setq gts-default-translator
         (gts-translator
          :picker (gts-noprompt-picker)
          :engines (list (gts-bing-engine)
                         (gts-google-engine))
-         :render (gts-posframe-pop-render)))
+         :render (gts-posframe-pop-render))))
+
+;;(require 'go-translate)
 
 (provide 'init-package)
