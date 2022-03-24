@@ -1,5 +1,8 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/lizqwer/.emacs.d/lisp/init-org.el" . 1429)
+(("/home/lizqwer/.emacs.d/lisp/init-melpa.el" . 166)
+ ("/home/lizqwer/quicklisp/local-projects/connect-any/web.lisp" . 572)
+ ("/home/lizqwer/.emacs.d/lisp/init-package.el" . 2709)
+ ("/home/lizqwer/.emacs.d/lisp/init-org.el" . 1429)
  ("/home/lizqwer/Documents/Sync/org/babal/"
   (dired-filename . "/home/lizqwer/Documents/Sync/org/babal/21NewProgramTest"))
  ("/home/lizqwer/Documents/Sync/org/babal/21NewProgramTest/"
@@ -13,7 +16,6 @@
  ("/home/lizqwer/quicklisp/local-projects/connect-any/package.lisp" . 176)
  ("/home/lizqwer/quicklisp/local-projects/connect-any/head.lisp" . 725)
  ("/home/lizqwer/quicklisp/local-projects/webapp/head/head.lisp" . 1092)
- ("/home/lizqwer/quicklisp/local-projects/connect-any/web.lisp" . 51)
  ("/home/lizqwer/quicklisp/local-projects/qqbot/head.lisp" . 378)
  ("/home/lizqwer/quicklisp/local-projects/qqbot/bot.lisp" . 15611)
  ("/home/lizqwer/quicklisp/local-projects/connect-any/connect-any.asd" . 252)
@@ -46,7 +48,6 @@
  ("/home/lizqwer/MyProject/topic-slove/project-euler/4/c++/main.cpp" . 39)
  ("/home/lizqwer/MyProject/topic-slove/project-euler/7/c++/main.cpp" . 58)
  ("/home/lizqwer/Documents/Sync/org/tasks.org" . 24)
- ("/home/lizqwer/.emacs.d/lisp/init-package.el" . 1640)
  ("/home/lizqwer/.emacs.d/lisp/init-func.el" . 71)
  ("/home/lizqwer/.emacs.d/init.el" . 527)
  ("/home/lizqwer/.emacs.d/lisp/init-const.el" . 179)
@@ -67,7 +68,6 @@
  ("/home/lizqwer/.emacs.d/elpa/simple-httpd-20191103.1446/simple-httpd-autoloads.el" . 1007)
  ("/home/lizqwer/.emacs.d/elpa/direx-20170422.1327/direx-autoloads.el" . 915)
  ("/home/lizqwer/temp/py4cl/main.lisp" . 118)
- ("/home/lizqwer/.emacs.d/lisp/init-melpa.el" . 124)
  ("/home/lizqwer/.emacs.d/lisp/init-elpa.el" . 1241)
  ("/home/lizqwer/.emacs.d/lisp/fcitx.el" . 15494)
  ("/home/lizqwer/.emacs.d/elpa/evil-matchit-20210923.931/evil-matchit-autoloads.el" . 13693)
