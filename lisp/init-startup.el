@@ -63,8 +63,7 @@
 
 (use-package which-key
   :ensure t
-  :custom
-  (which-key-popup-type 'side-window)
+  :hook (after-init . which-key-mode)
   :config (which-key-mode 1))
 
 (use-package ace-window

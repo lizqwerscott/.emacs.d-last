@@ -1,7 +1,8 @@
 ;;theme
 
-;(set-frame-font "Source Code Pro Light 14")
-(set-face-attribute 'default nil :height 130)
+(set-frame-font "Source Code Pro 15")
+(set-face-attribute 'default t :font "Source Code Pro 15")
+;(set-face-attribute 'default nil :height 140)
 
 (global-hl-line-mode 1)
 
@@ -33,6 +34,11 @@
   (setq dashboard-startup-banner 'logo)
   (dashboard-setup-startup-hook)
   :hook ((after-init . dashboard-refresh-buffer)))
-  
+
+(use-package highlight-indent-guides
+  :ensure t
+  :hook (prog-mode . highlight-indent-guides-mode)
+  :config
+  (setq highlight-indent-guides-method 'column))
 
 (provide 'init-ui)

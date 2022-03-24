@@ -1,0 +1,1 @@
+("~/quicklisp/local-projects/connect-any/" "~/.emacs.d/" "~/quicklisp/local-projects/qqbot/" "~/quicklisp/local-projects/webapp/" "~/quicklisp/local-projects/hell-game/" "~/" "~/quicklisp/local-projects/opticl-more-test/" "~/quicklisp/local-projects/myapp/" "~/quicklisp/local-projects/cl-transmission/" "~/quicklisp/local-projects/spider/")
