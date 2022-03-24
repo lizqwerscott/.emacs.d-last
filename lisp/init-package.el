@@ -138,6 +138,4 @@
                         (gts-google-engine))
          :render (gts-posframe-pop-render))))
 
-;;(require 'go-translate)
-
 (provide 'init-package)
