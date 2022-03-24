@@ -1,5 +1,5 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/lizqwer/.emacs.d/lisp/init-package.el" . 3621)
+(("/home/lizqwer/.emacs.d/lisp/init-package.el" . 3548)
  ("/home/lizqwer/.emacs.d/lisp/init-melpa.el" . 166)
  ("/home/lizqwer/quicklisp/local-projects/connect-any/web.lisp" . 572)
  ("/home/lizqwer/.emacs.d/lisp/init-org.el" . 1429)
