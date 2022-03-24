@@ -127,6 +127,9 @@
 
 (setq browse-url-browser-function 'browse-url-chrome)
 
+(use-package go-translate
+  :ensure t)
+
 (require 'go-translate)
 (setq gts-translate-list '(("en" "zh")))
 (setq gts-default-translator
