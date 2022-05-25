@@ -4,6 +4,13 @@
 (set-face-attribute 'default t :font "Source Code Pro 15")
 ;(set-face-attribute 'default nil :height 140)
 
+(when (member "Symbola" (font-family-list))
+  (set-fontset-font "fontset-default" nil
+                    (font-spec :size 20 :name "Symbola")))
+
+(when (member "Symbola" (font-family-list))
+  (set-fontset-font t 'unicode "Symbola" nil 'prepend))
+
 (global-hl-line-mode 1)
 
 (use-package gruvbox-theme
@@ -16,11 +23,12 @@
 (use-package lab-themes
   :ensure t)
 
-(use-package smart-mode-line
-  :init
-  (setq sml/no-confirm-load-theme t
-	sml/theme 'respectful)
-  (sml/setup))
+(use-package doom-modeline
+  :ensure t
+  :hook (after-init . doom-modeline-mode))
+
+(use-package all-the-icons
+  :ensure t)
 
 (use-package emacs
   :unless *is-windows*
@@ -33,6 +41,7 @@
   :config
   (setq dashboard-startup-banner 'logo)
   (dashboard-setup-startup-hook)
+  (setq dashboard-startup-banner 'project)
   :hook ((after-init . dashboard-refresh-buffer)))
 
 (use-package highlight-indent-guides

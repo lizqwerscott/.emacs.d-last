@@ -5,7 +5,7 @@
   "使用evil 在org mode 插入新行"
   (interactive "p")
   (evil-open-below 1)
-  (org-insert-item checkbox))
+  (org-insert-item))
 
 (add-hook 'org-mode-hook
           (lambda ()
@@ -34,13 +34,68 @@
   (interactive)
   (insert "#+HTML_HEAD: <link rel=\"stylesheet\" type=\"text/css\" href=\"http://gongzhitaao.org/orgcss/org.css\"/>"))
 
+(defun org-insert-html-theme-bigblow ()
+  (interactive)
+  (insert "#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup"))
+
+(defun org-insert-html-theme-readtheorg ()
+  (interactive)
+  (insert "#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup"))
+
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((emacs-lisp . t)
    (C . t)
-   (python . t)))
+   (python . t)
+   (latex . t)))
 
 (require 'org)
+
+(setq org-startup-indented t
+      org-src-tab-acts-natively t)
+
+(setq org-fontify-done-headline t
+      org-hide-leading-stars t
+      org-pretty-entities t
+      org-odd-levels-only t)
+
+(setq org-list-demote-modify-bullet
+      (quote (("+" . "-")
+              ("-" . "+")
+              ("*" . "-")
+              ("1." . "-")
+              ("1)" . "-")
+              ("A)" . "-")
+              ("B)" . "-")
+              ("a)" . "-")
+              ("b)" . "-")
+              ("A." . "-")
+              ("B." . "-")
+              ("a." . "-")
+              ("b." . "-"))))
+
+(use-package org-fancy-priorities
+  :ensure t
+  :hook
+  (org-mode . org-fancy-priorities-mode)
+  :config
+  (setq org-fancy-priorities-list
+        '((?A . "❗")
+          (?B . "⬆")
+          (?C . "⬇")
+          (?D . "☕")
+          (?1 . "⚡")
+          (?2 . "⮬")
+          (?3 . "⮮")
+          (?4 . "☕")
+          (?I . "Important"))))
+
+(use-package org-bullets
+  :ensure t
+  :custom
+  (org-bullets-bullet-list '("◉" "☯" "○" "☯" "✸" "☯" "✿" "☯" "✜" "☯" "◆" "☯" "▶"))
+  (org-ellipsis "⤵")
+  :hook (org-mode . org-bullets-mode))
 
 (define-key org-mode-map (kbd "C-c TAB") 'org-insert-item)
 

@@ -131,4 +131,16 @@
   :ensure t
   :hook (after-init . xclip-mode))
 
+;config c++ style
+(setq c-default-style "linux"
+      c-basic-offset 4)
+
+(add-hook 'c-mode-hook
+          '(lambda ()
+             (c-toggle-auto-state 1)))
+
+(add-hook 'c++-mode-hook
+          '(lambda ()
+             (c-toggle-auto-state 1)))
+
 (provide 'init-startup)

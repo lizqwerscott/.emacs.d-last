@@ -1,0 +1,233 @@
+;; Object semanticdb-project-database-file-156850771b82
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156850771b82"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156850771b02"
+      :major-mode c++-mode
+      :tags 
+        '( ("common.h" include nil nil [1 20])
+            ("head" variable
+               (:pointer 1
+                :default-value "NULL"
+                :type ("SNode" type (:type "class") nil nil))
+                nil [22 42])
+            ("end" variable
+               (:pointer 1
+                :default-value "NULL"
+                :type ("SNode" type (:type "class") nil nil))
+                nil [43 62])
+            ("encryptStr" function
+               (:arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [80 92])
+                    ("key" variable (:type "int") (reparse-symbol arg-sub-list) [93 101]))                  
+                :type "void")
+                nil [64 186])
+            ("encryptStudent" function
+               (:arguments 
+                  ( ("student" variable
+                       (:pointer 1
+                        :type ("Student" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [208 226])
+                    ("key" variable (:type "int") (reparse-symbol arg-sub-list) [227 235]))                  
+                :type "void")
+                nil [188 425])
+            ("AddTialList" function
+               (:arguments 
+                  ( ("studentInfo" variable (:type ("Student" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [444 464]))                  
+                :type "void")
+                nil [427 1137])
+            ("DestoryStudentList" function (:type "void") nil [1139 1313])
+            ("SchoolUpdateInfo" function
+               (:arguments 
+                  ( ("key" variable (:type "int") (reparse-symbol arg-sub-list) [1337 1345]))                  
+                :type "void")
+                nil [1315 2674]))          
+      :file "SchoolNode.cpp"
+      :pointmax 2675
+      :fsize 2804
+      :lastmodtime '(25225 51738 836839 388000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-156850771b22"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("string.h" include (:system-flag t) nil [40 59])
+            ("Stu" type
+               (:members 
+                  ( ("name" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [86 100])
+                    ("birth" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [105 120])
+                    ("sex" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [125 137])
+                    ("stuId" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [142 157])
+                    ("certifiId" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [162 181]))                  
+                :type "struct")
+                nil [61 192])
+            ("Student" type
+               (:typedef ("Stu" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [61 192])
+            ("Node" type
+               (:members 
+                  ( ("stuInfo" variable (:type ("Student" type (:type "class") nil nil)) (reparse-symbol classsubparts) [220 236])
+                    ("next" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [241 260]))                  
+                :type "struct")
+                nil [194 269])
+            ("SNode" type
+               (:typedef ("Node" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [194 269])
+            ("SchoolUpdateInfo" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("key" variable (:type "int") (reparse-symbol arg-sub-list) [300 308]))                  
+                :type "void")
+                nil [271 309])
+            ("CompanyCheck" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("stuId" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [335 348])
+                    ("key" variable (:type "int") (reparse-symbol arg-sub-list) [349 357]))                  
+                :type "void")
+                nil [310 358])
+            ("DestoryStudentList" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :type "void")
+                nil [360 393])
+            ("DestoryCompanyList" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :type "void")
+                nil [394 427])
+            ("head" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :type ("SNode" type (:type "class") nil nil))
+                nil [429 449])
+            ("end" variable
+               (:pointer 1
+                :typemodifiers ("extern")
+                :type ("SNode" type (:type "class") nil nil))
+                nil [464 483]))          
+      :file "common.h"
+      :pointmax 498
+      :fsize 497
+      :lastmodtime '(25225 61823 221192 859000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-156850771b42"
+      :major-mode c++-mode
+      :tags 
+        '( ("common.h" include nil nil [1 20])
+            ("CompSearchHead" variable
+               (:pointer 1
+                :default-value "NULL"
+                :type ("SNode" type (:type "class") nil nil))
+                nil [22 52])
+            ("CompSearchEnd" variable
+               (:pointer 1
+                :default-value "NULL"
+                :type ("SNode" type (:type "class") nil nil))
+                nil [53 82])
+            ("decryptStr" function
+               (:arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [100 112])
+                    ("result" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [113 127])
+                    ("key" variable (:type "int") (reparse-symbol arg-sub-list) [128 136]))                  
+                :type "void")
+                nil [84 216])
+            ("AddTailList" function
+               (:arguments 
+                  ( ("studentInfo" variable (:type ("Student" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [234 254]))                  
+                :type "int")
+                nil [218 951])
+            ("DestoryCompanyList" function (:type "void") nil [953 1198])
+            ("decryptStudent" function
+               (:arguments 
+                  ( ("stuId" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1219 1232])
+                    ("key" variable (:type "int") (reparse-symbol arg-sub-list) [1233 1241]))                  
+                :type "int")
+                nil [1200 1883])
+            ("CompanyCheck" function
+               (:arguments 
+                  ( ("stuId" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1903 1916])
+                    ("key" variable (:type "int") (reparse-symbol arg-sub-list) [1917 1925]))                  
+                :type "void")
+                nil [1885 2368]))          
+      :file "CompanyNode.cpp"
+      :pointmax 2369
+      :fsize 2442
+      :lastmodtime '(25225 57170 244318 42000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-156850771b62"
+      :major-mode c++-mode
+      :tags 
+        '( ("common.h" include nil nil [1 20])
+            ("key" variable
+               (:default-value "20000"
+                :type "int")
+                nil [22 38])
+            ("StuId2Check" variable
+               (:dereference 1
+                :default-value "\"07010203100\""
+                :type "char")
+                nil [39 76])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [87 96])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [97 110]))                  
+                :type "int")
+                nil [78 460]))          
+      :file "BlockChainMain.cpp"
+      :pointmax 462
+      :fsize 509
+      :lastmodtime '(25226 54587 554456 211000)
+      :unmatched-syntax nil))
+  :file "!home!lizqwer!MyProject!learn!data-struct!schoolLink!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

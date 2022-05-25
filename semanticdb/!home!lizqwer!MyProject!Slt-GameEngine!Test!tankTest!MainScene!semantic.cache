@@ -1,0 +1,110 @@
+;; Object semanticdb-project-database-file-15681f27d740
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15681f27d740"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15681f27d700"
+      :major-mode c++-mode
+      :tags 
+        '( ("MainScene.h" include nil nil [1 23])
+            ("cstdlib" include (:system-flag t) nil [24 42])
+            ("ctime" include (:system-flag t) nil [43 59])
+            ("../Body/Item/AllItem.h" include nil nil [60 93])
+            ("../Body/Entity/AllEntity.h" include nil nil [94 131])
+            ("../Body/ItemTManager.h" include nil nil [133 166])
+            ("ResourceManager/ResourceManager.h" include nil nil [167 211])
+            ("random" variable (:constant-flag t) nil [221 227])
+            ("MainScene" function
+               (:constructor-flag t
+                :parent "MainScene"
+                :type ("MainScene" type (:type "class") nil nil))
+                nil [308 367])
+            ("MainScene" function
+               (:destructor-flag t
+                :parent "MainScene"
+                :type "void")
+                nil [413 527])
+            ("create" function
+               (:pointer 1
+                :parent "MainScene"
+                :type ("MainScene" type (:type "class") nil nil))
+                nil [601 712])
+            ("init" function
+               (:parent "MainScene"
+                :type "void")
+                nil [757 18610])
+            ("DrawUiSelf" function
+               (:parent "MainScene"
+                :type "void")
+                nil [18612 18673])
+            ("UpdateSelf" function
+               (:parent "MainScene"
+                :arguments 
+                  ( ("dt" variable
+                       (:reference 1
+                        :type ("sf::Time" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18798 18811]))                  
+                :type "void")
+                nil [18771 19953]))          
+      :file "MainScene.cpp"
+      :pointmax 19954
+      :fsize 19953
+      :lastmodtime '(25221 63549 16108 311000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("random" (spp-arg-list ("a" "b") 227 . 233) . ((semantic-list "(rand() % (b - a + 1) + a)" 234 . 260)))
+          )
+)
+    (semanticdb-table "semanticdb-table-15681f27d720"
+      :major-mode c++-mode
+      :tags 
+        '( ("MAINSCENE_H" variable (:constant-flag t) nil [29 40])
+            ("../../../src/AllSub.h" include nil nil [42 74])
+            ("slt" using (:type ("slt" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [76 96])
+            ("MainScene" type
+               (:superclasses 
+                  ( ("Scene" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [178 185])
+                    ("MainScene" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("MainScene" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [190 202])
+                    ("MainScene" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [207 220])
+                    ("public" label nil (reparse-symbol classsubparts) [221 228])
+                    ("create" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :typemodifiers ("static")
+                        :type ("MainScene" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [233 261])
+                    ("override" variable (:type "int") (reparse-symbol classsubparts) [286 295])
+                    ("override" variable (:type "int") (reparse-symbol classsubparts) [338 347])
+                    ("override" variable (:type "int") (reparse-symbol classsubparts) [378 387])
+                    ("private" label nil (reparse-symbol classsubparts) [388 396])
+                    ("speed" variable (:type ("b2Vec2" type (:type "class") nil nil)) (reparse-symbol classsubparts) [401 414]))                  
+                :type "class")
+                nil [145 417]))          
+      :file "MainScene.h"
+      :pointmax 426
+      :fsize 425
+      :lastmodtime '(24846 26551 794030 597000)
+      :unmatched-syntax '((semantic-list 375 . 377) (symbol 365 . 375) (VOID 360 . 364) (VIRTUAL 352 . 359) (semantic-list 323 . 337) (symbol 313 . 323) (VOID 308 . 312) (VIRTUAL 300 . 307) (semantic-list 283 . 285) (symbol 279 . 283) (VOID 274 . 278) (VIRTUAL 266 . 273))
+      :lexical-table 
+        '(("MAINSCENE_H")
+          )
+))
+  :file "!home!lizqwer!MyProject!Slt-GameEngine!Test!tankTest!MainScene!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

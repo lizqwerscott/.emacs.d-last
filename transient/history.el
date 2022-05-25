@@ -1,1 +1,2 @@
-((magit-status-jump nil))
+((magit-commit nil)
+ (magit-status-jump nil))

@@ -1,0 +1,115 @@
+;; Object semanticdb-project-database-file-156a470248ac
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156a470248ac"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156a473f6286"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_STRING" variable (:constant-flag t) nil [1259 1274])
+            ("bits/c++config.h" include (:system-flag t) nil [1305 1332])
+            ("bits/stringfwd.h" include (:system-flag t) nil [1333 1360])
+            ("bits/char_traits.h" include (:system-flag t) nil [1361 1390])
+            ("bits/allocator.h" include (:system-flag t) nil [1431 1458])
+            ("bits/cpp_type_traits.h" include (:system-flag t) nil [1459 1492])
+            ("bits/localefwd.h" include (:system-flag t) nil [1493 1520])
+            ("bits/ostream_insert.h" include (:system-flag t) nil [1562 1594])
+            ("bits/stl_iterator_base_types.h" include (:system-flag t) nil [1595 1636])
+            ("bits/stl_iterator_base_funcs.h" include (:system-flag t) nil [1637 1678])
+            ("bits/stl_iterator.h" include (:system-flag t) nil [1679 1709])
+            ("bits/stl_function.h" include (:system-flag t) nil [1710 1740])
+            ("ext/numeric_traits.h" include (:system-flag t) nil [1753 1784])
+            ("bits/stl_algobase.h" include (:system-flag t) nil [1785 1815])
+            ("bits/refwrap.h" include (:system-flag t) nil [1816 1841])
+            ("bits/range_access.h" include (:system-flag t) nil [1842 1872])
+            ("bits/basic_string.h" include (:system-flag t) nil [1873 1903])
+            ("bits/basic_string.tcc" include (:system-flag t) nil [1904 1936])
+            ("std" type
+               (:members 
+                  ( ("pmr" type
+                       (:members 
+                          ( ("polymorphic_allocator" type
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type "class"
+                                :prototype t)
+                                (reparse-symbol namespacesubparts) [2091 2142])
+                            ("std::basic_string" variable (:type "int") (reparse-symbol namespacesubparts) [2240 2316])
+                            ("basic_string" variable (:type "int") (reparse-symbol namespacesubparts) [2339 2358])
+                            ("basic_string" variable (:type "int") (reparse-symbol namespacesubparts) [2461 2484])
+                            ("basic_string" variable (:type "int") (reparse-symbol namespacesubparts) [2507 2530])
+                            ("basic_string" variable (:type "int") (reparse-symbol namespacesubparts) [2553 2575]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2071 2579])
+                    ("__hash_string_base" type
+                       (:template 
+                          ( ("_Str" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :superclasses 
+                          ( ("__hash_base" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          )
+                        (reparse-symbol namespacesubparts) [2600 2843])
+                    ("hash" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("__hash_string_base" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("pmr::string" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [2847 2940])
+                    ("hash" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("__hash_string_base" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("pmr::u16string" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [3078 3177])
+                    ("hash" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("__hash_string_base" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("pmr::u32string" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [3180 3279])
+                    ("hash" type
+                       (:type "struct"
+                        :superclasses 
+                          ( ("__hash_string_base" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          
+                        :template-specifier 
+                          ( ("pmr::wstring" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [3282 3377]))                  
+                :type "namespace")
+                nil [1991 3411]))          
+      :file "string"
+      :pointmax 4800
+      :fsize 4799
+      :lastmodtime '(25216 29004 0 0)
+      :unmatched-syntax '((symbol 3401 . 3409) (semantic-list 2767 . 2836) (symbol 2752 . 2760) (CONST 2746 . 2751) (semantic-list 2728 . 2745) (semantic-list 2726 . 2728) (OPERATOR 2718 . 2726) (symbol 2705 . 2711) (punctuation 2551 . 2552) (symbol 2541 . 2548) (USING 2535 . 2540) (punctuation 2505 . 2506) (symbol 2495 . 2504) (USING 2489 . 2494) (punctuation 2459 . 2460) (symbol 2449 . 2458) (USING 2443 . 2448) (punctuation 2337 . 2338) (symbol 2327 . 2333) (USING 2321 . 2326) (punctuation 2238 . 2239) (symbol 2225 . 2237) (USING 2219 . 2224) (punctuation 2211 . 2212) (punctuation 2210 . 2211) (symbol 2204 . 2210) (punctuation 2203 . 2204) (symbol 2192 . 2203) (punctuation 2190 . 2191) (symbol 2182 . 2189) (TYPENAME 2173 . 2181) (punctuation 2171 . 2172) (symbol 2165 . 2171) (TYPENAME 2156 . 2164) (punctuation 2155 . 2156) (TEMPLATE 2147 . 2155) (symbol 1290 . 1303) (symbol 1286 . 1289) (symbol 1279 . 1285) (punctuation 1278 . 1279))
+      :lexical-table 
+        '(("_GLIBCXX_STRING" . ((number "1" 1275 . 1276)))
+          )
+)
+    (semanticdb-table "semanticdb-table-156a4650bbf8"
+      :file "cstdio"
+      :fsize 4439
+      :lastmodtime '(25216 29004 0 0))
+    (semanticdb-table "semanticdb-table-156a4650bc48"
+      :file "ctime"
+      :fsize 2298
+      :lastmodtime '(25216 29004 0 0)))
+  :file "!usr!include!c++!12.1.0!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

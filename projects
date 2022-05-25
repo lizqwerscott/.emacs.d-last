@@ -1,3 +1,8 @@
 ;;; -*- lisp-data -*-
 (("~/.emacs.d/")
+ ("~/quicklisp/local-projects/myapp/")
+ ("~/quicklisp/local-projects/connect-any/")
+ ("~/MyProject/connectAnyWindowP/")
+ ("~/MyProject/learn/data-struct/schoolLink/")
+ ("~/MyProject/Slt-GameEngine/")
  ("~/quicklisp/local-projects/qqbot/"))

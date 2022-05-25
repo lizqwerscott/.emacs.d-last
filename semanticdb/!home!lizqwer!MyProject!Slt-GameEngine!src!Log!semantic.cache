@@ -1,0 +1,256 @@
+;; Object semanticdb-project-database-file-156a4736ab3a
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156a4736ab3a"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156a4736aafa"
+      :major-mode c++-mode
+      :tags 
+        '( ("Log.h" include nil nil [1 17])
+            ("cstdio" include (:system-flag t) nil [18 35])
+            ("ctime" include (:system-flag t) nil [36 52])
+            ("../AllSub.h" include nil nil [54 76])
+            ("slt" using (:type ("slt" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [78 98])
+            ("Log" function
+               (:constructor-flag t
+                :parent "Log"
+                :type ("Log" type (:type "class") nil nil))
+                nil [100 238])
+            ("Log" function
+               (:destructor-flag t
+                :parent "Log"
+                :type "void")
+                nil [240 255])
+            ("_log" variable
+               (:pointer 1
+                :default-value "nullptr"
+                :type ("Log" type (:type "class") nil nil))
+                nil [257 278])
+            ("Create" function
+               (:parent "Log"
+                :type "void")
+                nil [280 361])
+            ("Destory" function
+               (:parent "Log"
+                :type "void")
+                nil [363 464])
+            ("setLevel" function
+               (:parent "Log"
+                :arguments 
+                  ( ("level" variable (:type ("LOGLEVEL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [485 500]))                  
+                :type "void")
+                nil [466 534])
+            ("setTarget" function
+               (:parent "Log"
+                :arguments 
+                  ( ("target" variable (:type ("TARGET" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [556 570]))                  
+                :type "void")
+                nil [536 606])
+            ("printLog" function
+               (:parent "Log"
+                :arguments 
+                  ( ("fmt" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [627 644])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [645 649]))                  
+                :type "void")
+                nil [608 1656])
+            ("printVec2" function
+               (:parent "Log"
+                :arguments 
+                  ( ("fmt" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1678 1694])
+                    ("pos" variable (:type ("b2Vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1695 1706]))                  
+                :type "void")
+                nil [1658 1764])
+            ("drawUi" function
+               (:parent "Log"
+                :type "void")
+                nil [1766 4132])
+            ("setDrawUi" function
+               (:parent "Log"
+                :type "void")
+                nil [4134 4201])
+            ("LogLevelToStr" function
+               (:parent "Log"
+                :type ("std::string" type (:type "class") nil nil))
+                nil [4203 4724])
+            ("clear" function
+               (:parent "Log"
+                :type "void")
+                nil [4726 4825]))          
+      :file "Log.cpp"
+      :pointmax 4826
+      :fsize 4825
+      :lastmodtime '(24850 26495 135209 697000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-156a4736ab1a"
+      :major-mode c++-mode
+      :tags 
+        '( ("LOG_H" variable (:constant-flag t) nil [23 28])
+            ("string" include (:system-flag t) nil [30 47])
+            ("../Graphic/UI/imgui.h" include nil nil [48 80])
+            ("../Graphic/UI/imgui-SFML.h" include nil nil [81 118])
+            ("b2Vec2" type
+               (:prototype t
+                :type "class")
+                nil [120 133])
+            ("slt" type
+               (:members 
+                  ( ("LOGLEVEL" type
+                       (:members 
+                          ( ("LOG_LEVEL_NONE" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [171 186])
+                            ("LOG_LEVEL_ERROR" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [191 207])
+                            ("LOG_LEVEL_WARNING" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [212 230])
+                            ("LOG_LEVEL_DEBUG" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [235 251])
+                            ("LOG_LEVEL_INFO" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [256 272]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [151 273])
+                    ("TARGET" type
+                       (:members 
+                          ( ("TARGET_TERMINAL" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [292 308])
+                            ("TARGET_GUI" variable
+                               (:constant-flag t
+                                :type "int")
+                                (reparse-symbol enumsubparts) [313 325]))                          
+                        :type "enum")
+                        (reparse-symbol namespacesubparts) [274 326])
+                    ("Log" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [340 347])
+                            ("setLevel" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("level" variable (:type ("LOGLEVEL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [373 388]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [352 389])
+                            ("setTarget" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("target" variable (:type ("TARGET" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [416 430]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [394 431])
+                            ("printLog" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("fmt" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type "char")
+                                        (reparse-symbol arg-sub-list) [457 474])
+                                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [475 479]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [436 480])
+                            ("printVec2" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("fmt" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type "char")
+                                        (reparse-symbol arg-sub-list) [507 524])
+                                    ("pos" variable (:type ("b2Vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [525 536]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [485 537])
+                            ("public" label nil (reparse-symbol classsubparts) [538 545])
+                            ("drawUi" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :type "void")
+                                (reparse-symbol classsubparts) [550 571])
+                            ("setDrawUi" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :type "void")
+                                (reparse-symbol classsubparts) [576 600])
+                            ("public" label nil (reparse-symbol classsubparts) [601 608])
+                            ("Create" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :type "void")
+                                (reparse-symbol classsubparts) [613 634])
+                            ("Destory" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :type "void")
+                                (reparse-symbol classsubparts) [639 661])
+                            ("private" label nil (reparse-symbol classsubparts) [662 670])
+                            ("LogLevelToStr" function
+                               (:prototype-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [675 703])
+                            ("private" label nil (reparse-symbol classsubparts) [704 712])
+                            ("clear" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [717 730])
+                            ("private" label nil (reparse-symbol classsubparts) [731 739])
+                            ("m_nowLevel" variable (:type ("LOGLEVEL" type (:type "class") nil nil)) (reparse-symbol classsubparts) [744 764])
+                            ("m_nowTarget" variable (:type ("TARGET" type (:type "class") nil nil)) (reparse-symbol classsubparts) [769 788])
+                            ("private" label nil (reparse-symbol classsubparts) [789 797])
+                            ("m_isDrawUi" variable (:type "bool") (reparse-symbol classsubparts) [802 818])
+                            ("m_buf" variable (:type ("ImGuiTextBuffer" type (:type "class") nil nil)) (reparse-symbol classsubparts) [823 845])
+                            ("m_filter" variable (:type ("ImGuiTextFilter" type (:type "class") nil nil)) (reparse-symbol classsubparts) [850 875])
+                            ("m_lineOffsets" variable (:type ("ImVector" type
+                                 (:template-specifier 
+                                    ( ("int" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [880 908])
+                            ("m_isAutoScroll" variable (:type "bool") (reparse-symbol classsubparts) [913 933])
+                            ("private" label nil (reparse-symbol classsubparts) [934 942])
+                            ("Log" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :type ("Log" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [947 953])
+                            ("Log" function
+                               (:prototype-flag t
+                                :destructor-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [958 965]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [328 968]))                  
+                :type "namespace")
+                nil [135 970]))          
+      :file "Log.h"
+      :pointmax 991
+      :fsize 990
+      :lastmodtime '(24850 26389 538869 823000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("LOG_H")
+          )
+))
+  :file "!home!lizqwer!MyProject!Slt-GameEngine!src!Log!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

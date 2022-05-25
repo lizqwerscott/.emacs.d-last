@@ -58,3 +58,5 @@ site-lisp/package/
 ./projectile.cache
 ./projects
 ./transient
+./places
+./tmp

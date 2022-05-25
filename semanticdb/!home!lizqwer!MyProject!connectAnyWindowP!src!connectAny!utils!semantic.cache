@@ -1,0 +1,110 @@
+;; Object semanticdb-project-database-file-15846ab0c708
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15846ab0c708"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15846ab0c6c8"
+      :major-mode python-mode
+      :tags 
+        '( ("HostIP" type
+               (:documentation " for HostIP"
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [88 100])
+                            ("self" variable nil (reparse-symbol indented_block_body) [109 123]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [54 58])
+                            ("ip" variable nil (reparse-symbol function_parameters) [60 67])
+                            ("p" variable nil (reparse-symbol function_parameters) [69 70]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [41 124])
+                    ("livep" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [139 143])
+                            ("anotherDeviceId" variable nil (reparse-symbol function_parameters) [145 165])
+                            ("userName" variable nil (reparse-symbol function_parameters) [167 180])
+                            ("deviceId" variable nil (reparse-symbol function_parameters) [182 195]))                          )
+                        (reparse-symbol indented_block_body) [129 334]))                  
+                :type "class")
+                nil [1 334])
+            ("DeviceS" type
+               (:documentation "device"
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [429 447])
+                            ("self" variable nil (reparse-symbol indented_block_body) [456 470])
+                            ("self" variable nil (reparse-symbol indented_block_body) [479 493]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [384 388])
+                            ("id" variable nil (reparse-symbol function_parameters) [390 397])
+                            ("ips" variable nil (reparse-symbol function_parameters) [399 408])
+                            ("p" variable nil (reparse-symbol function_parameters) [410 411]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [371 494])
+                    ("livep" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [509 513]))                          )
+                        (reparse-symbol indented_block_body) [499 697])
+                    ("getLiveIp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [716 720]))                          )
+                        (reparse-symbol indented_block_body) [702 805]))                  
+                :type "class")
+                nil [335 805]))          
+      :file "device.py"
+      :pointmax 805
+      :fsize 804
+      :lastmodtime '(25224 59805 291839 50000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-15846ab0c6e8"
+      :major-mode python-mode
+      :tags 
+        '( ("requests" include nil nil [1 16])
+            ("concurrent.futures" include nil nil [17 66])
+            ("threading" include nil nil [67 83])
+            ("socket" include nil nil [84 97])
+            ("platform" include nil nil [98 113])
+            ("os" include nil nil [114 123])
+            ("json" include nil nil [124 135])
+            ("getHostIp" function nil nil [137 332])
+            ("lock" variable nil nil [680 703])
+            ("sendPing" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [718 725])
+                ("ips" variable nil (reparse-symbol function_parameters) [727 736]))              ) nil [705 1278])
+            ("searchIp" function nil nil [1279 1618])
+            ("generateUrl" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [1635 1642])
+                ("port" variable nil (reparse-symbol function_parameters) [1644 1653])
+                ("command" variable nil (reparse-symbol function_parameters) [1655 1667])
+                ("params" variable nil (reparse-symbol function_parameters) [1669 1681]))              ) nil [1619 1944])
+            ("sendConnect" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [1961 1968])
+                ("userName" variable nil (reparse-symbol function_parameters) [1970 1983])
+                ("deviceID" variable nil (reparse-symbol function_parameters) [1985 1998]))              ) nil [1945 2603])
+            ("sendLive" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [2617 2624])
+                ("userName" variable nil (reparse-symbol function_parameters) [2626 2639])
+                ("deviceID" variable nil (reparse-symbol function_parameters) [2641 2654]))              ) nil [2604 2922])
+            ("sendText" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [2936 2943])
+                ("deviceId" variable nil (reparse-symbol function_parameters) [2945 2958])
+                ("data" variable nil (reparse-symbol function_parameters) [2960 2969]))              ) nil [2923 3285])
+            ("sendUrl" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [3298 3305])
+                ("deviceId" variable nil (reparse-symbol function_parameters) [3307 3320])
+                ("data" variable nil (reparse-symbol function_parameters) [3322 3331]))              ) nil [3286 3646]))          
+      :file "web.py"
+      :pointmax 3646
+      :fsize 3645
+      :lastmodtime '(25226 60491 488188 466000)
+      :unmatched-syntax nil))
+  :file "!home!lizqwer!MyProject!connectAnyWindowP!src!connectAny!utils!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,93 @@
+;; Object semanticdb-project-database-file-15846a90de28
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15846a90de28"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158469525cd6"
+      :major-mode python-mode
+      :tags 
+        '( ("utils" include nil nil [1 22])
+            ("client" include nil nil [23 36])
+            ("server" include nil nil [37 50])
+            ("head" include nil nil [51 62])
+            ("main" function nil nil [64 355])
+            ("if" code nil nil [356 394]))          
+      :file "main.py"
+      :pointmax 395
+      :fsize 1029
+      :lastmodtime '(25226 59790 846443 95000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-15846953a15e"
+      :major-mode python-mode
+      :tags 
+        '( ("utils.web" include nil nil [1 24])
+            ("utils.device" include nil nil [25 54])
+            ("head" include nil nil [55 66])
+            ("json" include nil nil [67 78])
+            ("os.path" include nil nil [80 106])
+            ("concurrent.futures" include nil nil [108 157])
+            ("threading" include nil nil [158 174])
+            ("devices" variable nil nil [176 188])
+            ("addDevice" function (:arguments 
+              ( ("ip" variable nil (reparse-symbol function_parameters) [204 211])
+                ("deviceID" variable nil (reparse-symbol function_parameters) [213 226]))              ) nil [190 642])
+            ("searchDevice" function (:arguments 
+              ( ("ips" variable nil (reparse-symbol function_parameters) [660 669]))              ) nil [643 1094])
+            ("showDevices" function nil nil [1095 1249])
+            ("findDevice" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [1265 1274]))              ) nil [1250 1386])
+            ("deviceToList" function (:arguments 
+              ( ("device" variable nil (reparse-symbol function_parameters) [1404 1426]))              ) nil [1387 1518])
+            ("saveDeivces" function nil nil [1519 1779])
+            ("loadDevices" function nil nil [1780 2113]))          
+      :file "client.py"
+      :pointmax 2114
+      :fsize 2113
+      :lastmodtime '(25226 59798 739721 2000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158469547084"
+      :major-mode python-mode
+      :tags 
+        '( ("flask" include nil nil [1 24])
+            ("flask" include nil nil [25 50])
+            ("flask" include nil nil [51 76])
+            ("json" include nil nil [77 88])
+            ("head" include nil nil [90 101])
+            ("client" include nil nil [102 115])
+            ("app" variable nil nil [117 138])
+            ("" code nil nil [150 155])
+            ("hello" function nil nil [156 188])
+            ("" code nil nil [199 211])
+            ("connect" function nil nil [212 873])
+            ("" code nil nil [884 893])
+            ("live" function nil nil [894 1000])
+            ("handleText" function (:arguments 
+              ( ("text" variable nil (reparse-symbol function_parameters) [1016 1020]))              ) nil [1001 1056])
+            ("handleUrl" function (:arguments 
+              ( ("url" variable nil (reparse-symbol function_parameters) [1071 1074]))              ) nil [1057 1108])
+            ("" code nil nil [1119 1148])
+            ("recive" function nil nil [1149 1652]))          
+      :file "server.py"
+      :pointmax 1653
+      :fsize 1652
+      :lastmodtime '(25216 22531 866311 157000)
+      :unmatched-syntax '((INDENT_BLOCK 1324 . 1652) (NEWLINE 1323 . 1324) (COLON 1322 . 1323) (ELSE 1318 . 1322) (INDENT_BLOCK 1236 . 1314) (NEWLINE 1235 . 1236) (COLON 1234 . 1235) (TRY 1167 . 1170) (AS 1230 . 1232)))
+    (semanticdb-table "semanticdb-table-15846954e972"
+      :major-mode python-mode
+      :tags 
+        '( ("myDeviceId" variable nil nil [1 16])
+            ("myUserName" variable nil nil [17 32])
+            ("setMyDeviceId" function (:arguments 
+              ( ("deviceId" variable nil (reparse-symbol function_parameters) [52 65]))              ) nil [34 116])
+            ("setUserName" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [133 142]))              ) nil [117 189])
+            ("getMyDeviceId" function nil nil [190 255])
+            ("getMyUserName" function nil nil [256 321]))          
+      :file "head.py"
+      :pointmax 321
+      :fsize 320
+      :lastmodtime '(25216 22107 234173 714000)
+      :unmatched-syntax nil))
+  :file "!home!lizqwer!MyProject!connectAnyWindowP!src!connectAny!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
